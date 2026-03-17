@@ -1,0 +1,19 @@
+# Secret keys — NEVER push to GitHub
+.env
+
+# Python cache files
+__pycache__/
+*.pyc
+*.pyo
+
+# Virtual environment folder
+venv/
+env/
+.venv/
+
+# FAISS vector store (auto-generated, no need to push)
+chroma_db/
+
+# OS files
+.DS_Store
+Thumbs.db
